@@ -1,9 +1,18 @@
-## <img src="https://raw.githubusercontent.com/midhunz/close-all-tabs/main/icons/48.png" width="20" height =""/>  Close-All-Tabs
+## <img src="https://raw.githubusercontent.com/mrmattwright/close-aws-zpn/main/icons/48.png" width="20" height =""/>  Close-All-Tabs
 
-This crome Extension extension allows users to quickly close all open tabs in all open windows
+This crome Extension extension allows users to quickly close all tabs that are opened by a rouge AWS VPN Client.
 
 ## Install
 
+- Clone this repo
+- Open Chrome and go to [chrome://extensions/](chrome://extensions/)
+- Enable `Developer mode`
+- Click on `Load unpacked` and select the `close-aws-vpn`  folder (wherever you cloned it)
+
+<img src="https://raw.githubusercontent.com/mrmattwright/close-aws-zpn/main/docs/screenshots/VPNTabCloser.png" width="20" height =""/>  
+
+Before blindly installing this, do check what it's doing so you know it's legit and not mining bitcoin or something. Have a look in the `manifest.json` file and you'll see that it's only asking for permission to control tabs. Have a look in the `background.js` file and you'll see that it's only closing tabs that have a URLs that match `http://127.0.0.1:35001/"`. If you're not happy with that, don't install it.
+
 ### Contributing
 
-Make sure you build is green before you contribute your pull request.
+Every time you click that button and it makes you slime in satisfaction, you're contributing to the project. 😊
