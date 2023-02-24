@@ -18,4 +18,4 @@ Have a look in the `manifest.json` file and you'll see that it's only asking for
 
 ### Contributing
 
-Every time you click that button and it makes you slime in satisfaction, you're contributing to the project. 😊
+Every time you click that button and it makes you smile in satisfaction, you're contributing to the project. 😊
