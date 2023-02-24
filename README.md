@@ -1,4 +1,4 @@
-## <img src="https://raw.githubusercontent.com/mrmattwright/close-aws-zpn/main/icons/48.png" width="20" height =""/>  Close-All-Tabs
+## <img src="https://raw.githubusercontent.com/mrmattwright/close-aws-zpn/main/icons/48.png" width="20" height =""/>  Close-AWS-VPN-Tabs
 
 This crome Extension extension allows users to quickly close all tabs that are opened by a rouge AWS VPN Client.
 
